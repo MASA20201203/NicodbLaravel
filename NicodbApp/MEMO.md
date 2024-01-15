@@ -59,4 +59,10 @@ php artisan getstreamer
 
 ````
 
-## 1.14(日)
+## 1.15(月)
+
+### Web スクレイピング処理作成
+
+```必要なライブラリをインストール
+composer require guzzlehttp/guzzle symfony/dom-crawler
+```

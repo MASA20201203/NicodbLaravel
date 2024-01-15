@@ -3,6 +3,8 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
+use GuzzleHttp\Client;
+use Symfony\Component\DomCrawler\Crawler;
 
 class GetStreamers extends Command
 {
@@ -38,6 +40,25 @@ class GetStreamers extends Command
     public function handle()
     {
         print("Start, getstreamers!\n");
+
+        $client = new Client();
+        $response = $client->request('GET', 'https://live.nicovideo.jp/ranking');
+
+        $crawler = new Crawler($response->getBody()->getContents());
+
+        // print_r($crawler);
+
+        // var_dump($crawler);
+
+        // $crawler->filter('.some-class')->each(function ($node) {
+        //     // ここでユーザー名やユーザーIDを抽出し、表示または保存
+        //     echo $node->text()."\n";
+        // });
+
+        $crawler->filter('.___rk-program-card-detail-provider-name___uyI6f')->each(function ($node) {
+            // ここでユーザー名やユーザーIDを抽出し、表示または保存
+            echo $node->text()."\n";
+        });
 
         print("End, getstreamers!\n");
     }
