@@ -35,3 +35,28 @@ php artisan make:command GetStreamers
 ```実行コマンド
 php artisan getstreamer
 ```
+
+### Web スクレイピング処理の実装
+
+````ロジック
+
+```ChatGPTへのプロンプト
+下記URLに対して、PHP で Webスプレイピングを利用し、ユーザー名・ユーザーIDを取得したいです。
+
+  ```URL
+  https://live.nicovideo.jp/ranking
+  ```
+
+  取得したいユーザー名・ユーザー ID の例は下記のとおりです。
+
+  ```ユーザー名
+  おっちち姫
+  ```
+
+  ```ユーザーID
+  116547421
+  ```
+
+````
+
+## 1.14(日)

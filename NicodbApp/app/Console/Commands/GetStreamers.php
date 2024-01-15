@@ -38,5 +38,7 @@ class GetStreamers extends Command
     public function handle()
     {
         print("Start, getstreamers!\n");
+
+        print("End, getstreamers!\n");
     }
 }
