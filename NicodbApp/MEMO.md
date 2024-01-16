@@ -136,3 +136,40 @@ php artisan make:model Community -m
 
 - 外部キーをつける
 - データ登録処理実装
+
+## 1.17(水)
+
+### メンテ時処理エラー
+
+```bash
+masa:NicodbApp$ php artisan getstreamers
+Start, getstreamers!
+
+   GuzzleHttp\Exception\ServerException 
+
+  Server error: `GET https://live.nicovideo.jp/ranking` resulted in a `503 Service Temporarily Unavailable` response:
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-w (truncated...)
+
+  at vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+    109▕         if ($summary !== null) {
+    110▕             $message .= ":\n{$summary}\n";
+    111▕         }
+    112▕ 
+  ➜ 113▕         return new $className($message, $request, $response, $previous, $handlerContext);
+    114▕     }
+    115▕ 
+    116▕     /**
+    117▕      * Obfuscates URI if there is a username and a password present
+
+      +10 vendor frames 
+  11  app/Console/Commands/GetStreamers.php:49
+      GuzzleHttp\Client::request()
+
+      +13 vendor frames 
+  25  artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+```
