@@ -52,7 +52,7 @@ class GetStreamers extends Command
         $dataProps = $crawler->filter('#embedded-data')->attr('data-props');
         $jsonData = json_decode($dataProps, true);
 
-        // 処理...
+        // Streamerモデルにデータを保存
         $user_programs = $jsonData["ranking"]["userPrograms"];
         $streamers = collect($user_programs)->map(function ($user_program) {
             return [

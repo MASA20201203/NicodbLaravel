@@ -116,3 +116,16 @@ composer require doctrine/dbal
 - マイグレーションの仕方から、PHPによるDOM(XML処理)、JSONの扱い方、LaravelでのDB一括登録
 
 ### DBの日時を修正
+
+### ニコ生公式ランキングに表示されているコミュニティIDをstreamersテーブルに登録する
+
+- やること
+  - Communitiy モデルを作成
+  - ニコ生公式ランキングをスクレイピングして、ユーザー名、ユーザーIDを取得
+  - 取得したコミュニティIDをcommunitiesテーブルにデータを登録
+
+### Communitiy モデルを作成
+
+```Communitiy モデルを作成
+php artisan make:model Community -m
+```
