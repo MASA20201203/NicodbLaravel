@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use Illuminate\Console\Command;
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
+use App\Models\Streamer;
 
 class GetStreamers extends Command
 {
@@ -47,11 +48,18 @@ class GetStreamers extends Command
         $crawler = new Crawler($response->getBody()->getContents());
 
         $crawler->filter('.___rk-program-card-detail-provider-name___uyI6f')->each(function ($node, $i) {
+            // ユーザー放送のユーザー名を取得するため、50件まで取得する
             if($i >= 50){
                 return false;
             }
             // ここでユーザー名やユーザーIDを抽出し、表示または保存
-            echo $node->text()."\n";
+            $user_name = $node->text();
+            echo $user_name."\n";
+
+            // ユーザー名をデータベースに保存
+            $streamer = new Streamer();
+            $streamer->name = $user_name;
+            $streamer->save();
         });
 
         print("End, getstreamers!\n");

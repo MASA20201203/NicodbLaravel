@@ -70,3 +70,11 @@ composer require guzzlehttp/guzzle symfony/dom-crawler
 ## 1.16(火)
 
 ### ニコ生公式クリ奨ランキングからユーザー名を取得し、コンソールに表示
+
+### 取得したユーザー名を取得し、Streamer モデルに登録
+
+- 課題
+  - drawio を Github で見れるようにする
+  - Stremaers モデルの修正->ユーザー ID をプライマリーキーにする
+  - ニコ生公式ランキングからユーザー ID を取得する
+  - 取得したユーザー ID を Streamers テーブルに登録する
