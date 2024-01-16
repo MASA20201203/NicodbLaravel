@@ -47,62 +47,22 @@ class GetStreamers extends Command
 
         $crawler = new Crawler($response->getBody()->getContents());
 
-        // $crawler->filter('.___rk-program-card-detail-provider-name___uyI6f')->each(function ($node, $i) {
-        //     // ユーザー放送のユーザー名を取得するため、50件まで取得する
-        //     if($i >= 50){
-        //         return false;
-        //     }
-        //     // ここでユーザー名やユーザーIDを抽出し、表示または保存
-        //     $user_name = $node->text();
-        //     echo $user_name."\n";
-
-        //     // ユーザー名をデータベースに保存
-        //     $streamer = new Streamer();
-        //     $streamer->name = $user_name;
-        //     $streamer->save();
-        // });
-
-        // DEBUG 後で削除
-        // // 'embedded-data'のデータを取得する
-        // $embeddedData = $crawler->filter('script[data-name="embedded-data"]')->each(function ($node) {
-        //     return $node->attr('data-props');
-        // });
-
-        // // $embeddedDataには必要なデータが含まれます
-        // print_r($embeddedData);
-
-
-        // $html = (string) $response->getBody();
-
-        // $dom = new DOMDocument();
-        // @$dom->loadHTML($html);
-
-        // $xpath = new DOMXPath($dom);
-        // $nodes = $xpath->query('//*[@data-embedded]');
-
-        // foreach ($nodes as $node) {
-        //     echo $node->nodeValue . "\n";
-        // }
-
-        // "embedded-data"要素の"data-props"属性を取得
+        // ニコ生公式ランキングのjsonデータを取得（"embedded-data"要素の"data-props"）
         $dataProps = $crawler->filter('#embedded-data')->attr('data-props');
-
-        // JSONデータをデコード
         $jsonData = json_decode($dataProps, true);
 
         // 処理...
-        // 例えば、$jsonDataをそのまま返すか、加工して返す
-        // var_dump($jsonData);
-        // var_dump($jsonData["ranking"]);
-        var_dump($jsonData["ranking"]["userPrograms"]);
-        
-        // $file = './tmp/embedded-data.json';
-        // // ファイルをオープンして既存のコンテンツを取得します
-        // $current = file_get_contents($file);
-        // // 新しい人物をファイルに追加します
-        // $current .= $jsonData;
-        // // 結果をファイルに書き出します
-        // file_put_contents($file, $current);
+        $user_programs = $jsonData["ranking"]["userPrograms"];
+        // var_dump($user_programs);
+        foreach ($user_programs as $user_program) {
+            echo $user_program["programProvider"]["id"] . "\n";
+            echo $user_program["programProvider"]["name"] . "\n";
+            // $streamer = Streamer::firstOrNew(['user_id' => $user_program["id"]]);
+            // $streamer->user_id = $user_program["id"];
+            // $streamer->nickname = $user_program["nickname"];
+            // $streamer->thumbnail_url = $user_program["thumbnailUrl"];
+            // $streamer->save();
+        }
 
         print("End, getstreamers!\n");
     }

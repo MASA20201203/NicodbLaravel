@@ -83,9 +83,11 @@ composer require guzzlehttp/guzzle symfony/dom-crawler
 
 ### ニコ生公式ランキングのjsonデータの確認
 
-```
+```ChatGPTヘのプロンプト
 下記URLで"embedded-data"のデータを取得する方法をおしえてください
 
 - URL
   - view-source:https://live.nicovideo.jp/ranking
 ```
+
+### ニコ生公式ランキングのjsonデータからユーザー情報の取得
