@@ -58,12 +58,21 @@ class GetStreamers extends Command
             return [
                 'id' => $user_program["programProvider"]["id"],
                 'name' => $user_program["programProvider"]["name"],
-                // 'created_at' => now(),
-                // 'updated_at' => now(),
             ];
         })->toArray();
 
         Streamer::upsert($streamers, ['id'], ['name']);
+
+        // Communityモデルにデータを保存
+        // $user_programs = $jsonData["ranking"]["userPrograms"];
+        // $streamers = collect($user_programs)->map(function ($user_program) {
+        //     return [
+        //         'id' => $user_program["programProvider"]["id"],
+        //         'name' => $user_program["programProvider"]["name"],
+        //     ];
+        // })->toArray();
+
+        // Streamer::upsert($streamers, ['id'], ['name']);
 
         print("End, getstreamers!\n");
     }

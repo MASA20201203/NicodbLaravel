@@ -121,11 +121,13 @@ composer require doctrine/dbal
 
 - やること
   - Communitiy モデルを作成
-  - ニコ生公式ランキングをスクレイピングして、ユーザー名、ユーザーIDを取得
+  - ニコ生公式ランキングをスクレイピングして、コミュニティIDを取得
   - 取得したコミュニティIDをcommunitiesテーブルにデータを登録
 
-### Communitiy モデルを作成
+### Community モデルを作成
 
 ```Communitiy モデルを作成
 php artisan make:model Community -m
 ```
+
+### Community の id を string に変更
