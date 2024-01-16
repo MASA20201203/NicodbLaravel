@@ -66,3 +66,7 @@ php artisan getstreamer
 ```必要なライブラリをインストール
 composer require guzzlehttp/guzzle symfony/dom-crawler
 ```
+
+## 1.16(火)
+
+### ニコ生公式クリ奨ランキングからユーザー名を取得し、コンソールに表示

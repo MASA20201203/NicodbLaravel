@@ -46,16 +46,10 @@ class GetStreamers extends Command
 
         $crawler = new Crawler($response->getBody()->getContents());
 
-        // print_r($crawler);
-
-        // var_dump($crawler);
-
-        // $crawler->filter('.some-class')->each(function ($node) {
-        //     // ここでユーザー名やユーザーIDを抽出し、表示または保存
-        //     echo $node->text()."\n";
-        // });
-
-        $crawler->filter('.___rk-program-card-detail-provider-name___uyI6f')->each(function ($node) {
+        $crawler->filter('.___rk-program-card-detail-provider-name___uyI6f')->each(function ($node, $i) {
+            if($i >= 50){
+                return false;
+            }
             // ここでユーザー名やユーザーIDを抽出し、表示または保存
             echo $node->text()."\n";
         });
