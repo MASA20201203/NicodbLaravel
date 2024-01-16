@@ -132,6 +132,7 @@ php artisan make:model Community -m
 
 ### Community の id を string に変更
 
-### 取得したコミュニティIDをcommunitiesテーブルにデータを登録
+### 取得したコミュニティIDをstremaer_communitiesテーブルにデータを登録
 
 - 外部キーをつける
+- データ登録処理実装

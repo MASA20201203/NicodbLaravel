@@ -5,9 +5,10 @@ namespace App\Console\Commands;
 use Illuminate\Console\Command;
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
+use Illuminate\Support\Collection;
 use App\Models\Streamer;
 use App\Models\Community;
-use Illuminate\Support\Collection;
+use App\Models\Streamer_community;
 
 class GetStreamers extends Command
 {
@@ -74,6 +75,16 @@ class GetStreamers extends Command
         })->toArray();
 
         Community::upsert($communities, ['id']);
+
+        // Streamer_communityモデルにデータを保存
+        $streamer_communities = collect($user_programs)->map(function ($user_program) {
+            return [
+                'streamer_id' => $user_program["programProvider"]["id"],
+                'community_id' => $user_program["socialGroup"]["id"],
+            ];
+        })->toArray();
+
+        Streamer_community::upsert($streamer_communities, ['id']);
 
         print("End, getstreamers!\n");
     }
