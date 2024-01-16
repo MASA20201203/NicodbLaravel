@@ -110,3 +110,9 @@ composer require doctrine/dbal
 
 - 今後の課題
   - DBの日時を修正する
+
+### 本日学んだこと
+
+- マイグレーションの仕方から、PHPによるDOM(XML処理)、JSONの扱い方、LaravelでのDB一括登録
+
+### DBの日時を修正
