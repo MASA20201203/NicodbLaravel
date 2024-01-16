@@ -91,3 +91,14 @@ composer require guzzlehttp/guzzle symfony/dom-crawler
 ```
 
 ### ニコ生公式ランキングのjsonデータからユーザー情報の取得
+
+### Stremaers モデルの修正->ユーザー ID をプライマリーキーにする
+
+```php
+composer require doctrine/dbal
+```
+
+- マイグレーションファイル作成
+  - php artisan make:migration modify_streamers_table
+
+- id列をプライマリーキーに設定

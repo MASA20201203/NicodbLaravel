@@ -14,8 +14,8 @@ class CreateStreamersTable extends Migration
     public function up()
     {
         Schema::create('streamers', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
+            $table->integer('id')->primary(); // ニコ生ユーザーIDを格納する列
+            $table->string('name')->nullable(false); // ニコ生ユーザー名を格納する列
             $table->timestamps();
         });
     }
