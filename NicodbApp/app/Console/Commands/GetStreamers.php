@@ -6,6 +6,7 @@ use Illuminate\Console\Command;
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 use App\Models\Streamer;
+use Illuminate\Support\Collection;
 
 class GetStreamers extends Command
 {
@@ -53,16 +54,16 @@ class GetStreamers extends Command
 
         // 処理...
         $user_programs = $jsonData["ranking"]["userPrograms"];
-        // var_dump($user_programs);
-        foreach ($user_programs as $user_program) {
-            echo $user_program["programProvider"]["id"] . "\n";
-            echo $user_program["programProvider"]["name"] . "\n";
-            // $streamer = Streamer::firstOrNew(['user_id' => $user_program["id"]]);
-            // $streamer->user_id = $user_program["id"];
-            // $streamer->nickname = $user_program["nickname"];
-            // $streamer->thumbnail_url = $user_program["thumbnailUrl"];
-            // $streamer->save();
-        }
+        $streamers = collect($user_programs)->map(function ($user_program) {
+            return [
+                'id' => $user_program["programProvider"]["id"],
+                'name' => $user_program["programProvider"]["name"],
+                // 'created_at' => now(),
+                // 'updated_at' => now(),
+            ];
+        })->toArray();
+
+        Streamer::upsert($streamers, ['id'], ['name']);
 
         print("End, getstreamers!\n");
     }

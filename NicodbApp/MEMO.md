@@ -102,3 +102,11 @@ composer require doctrine/dbal
   - php artisan make:migration modify_streamers_table
 
 - id列をプライマリーキーに設定
+
+### 取得したユーザーID・ユーザー名 を Streamers テーブルに登録する
+
+- foreach を Collection に変更
+- データを一括登録させる処理に変更
+
+- 今後の課題
+  - DBの日時を修正する
