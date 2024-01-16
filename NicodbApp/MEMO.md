@@ -131,3 +131,5 @@ php artisan make:model Community -m
 ```
 
 ### Community の id を string に変更
+
+### 取得したコミュニティIDをcommunitiesテーブルにデータを登録

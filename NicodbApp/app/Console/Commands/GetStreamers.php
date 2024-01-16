@@ -6,6 +6,7 @@ use Illuminate\Console\Command;
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 use App\Models\Streamer;
+use App\Models\Community;
 use Illuminate\Support\Collection;
 
 class GetStreamers extends Command
@@ -52,8 +53,10 @@ class GetStreamers extends Command
         $dataProps = $crawler->filter('#embedded-data')->attr('data-props');
         $jsonData = json_decode($dataProps, true);
 
-        // Streamerモデルにデータを保存
+        // jsonデータからユーザー配信のデータを変数に格納
         $user_programs = $jsonData["ranking"]["userPrograms"];
+
+        // Streamerモデルにデータを保存
         $streamers = collect($user_programs)->map(function ($user_program) {
             return [
                 'id' => $user_program["programProvider"]["id"],
@@ -64,15 +67,13 @@ class GetStreamers extends Command
         Streamer::upsert($streamers, ['id'], ['name']);
 
         // Communityモデルにデータを保存
-        // $user_programs = $jsonData["ranking"]["userPrograms"];
-        // $streamers = collect($user_programs)->map(function ($user_program) {
-        //     return [
-        //         'id' => $user_program["programProvider"]["id"],
-        //         'name' => $user_program["programProvider"]["name"],
-        //     ];
-        // })->toArray();
+        $communities = collect($user_programs)->map(function ($user_program) {
+            return [
+                'id' => $user_program["socialGroup"]["id"],
+            ];
+        })->toArray();
 
-        // Streamer::upsert($streamers, ['id'], ['name']);
+        Community::upsert($communities, ['id']);
 
         print("End, getstreamers!\n");
     }
