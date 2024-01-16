@@ -81,3 +81,11 @@ composer require guzzlehttp/guzzle symfony/dom-crawler
 
 ### drawio を Github で見れるようにする
 
+### ニコ生公式ランキングのjsonデータの確認
+
+```
+下記URLで"embedded-data"のデータを取得する方法をおしえてください
+
+- URL
+  - view-source:https://live.nicovideo.jp/ranking
+```
