@@ -1,0 +1,4759 @@
+Start, getstreamings!
+object(Illuminate\Database\Eloquent\Collection)#1910 (2) {
+  ["items":protected]=>
+  array(50) {
+    [0]=>
+    object(App\Models\Community)#1911 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(8) "co106629"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(8) "co106629"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [1]=>
+    object(App\Models\Community)#1912 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co1358080"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co1358080"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [2]=>
+    object(App\Models\Community)#1913 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co1587468"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co1587468"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [3]=>
+    object(App\Models\Community)#1914 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co1955982"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co1955982"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [4]=>
+    object(App\Models\Community)#1915 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co2172061"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co2172061"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [5]=>
+    object(App\Models\Community)#1916 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co2241593"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co2241593"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [6]=>
+    object(App\Models\Community)#1917 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co2556412"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co2556412"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [7]=>
+    object(App\Models\Community)#1918 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co2585166"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co2585166"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [8]=>
+    object(App\Models\Community)#1919 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(8) "co272301"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(8) "co272301"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [9]=>
+    object(App\Models\Community)#1920 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co2884162"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co2884162"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [10]=>
+    object(App\Models\Community)#1921 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(7) "co29154"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(7) "co29154"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [11]=>
+    object(App\Models\Community)#1922 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3000390"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3000390"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [12]=>
+    object(App\Models\Community)#1923 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3090670"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3090670"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [13]=>
+    object(App\Models\Community)#1924 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3101233"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3101233"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [14]=>
+    object(App\Models\Community)#1925 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3101466"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3101466"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [15]=>
+    object(App\Models\Community)#1926 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3198543"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3198543"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [16]=>
+    object(App\Models\Community)#1927 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3206892"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3206892"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [17]=>
+    object(App\Models\Community)#1928 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3381654"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3381654"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [18]=>
+    object(App\Models\Community)#1929 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3638417"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3638417"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [19]=>
+    object(App\Models\Community)#1930 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3709261"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3709261"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [20]=>
+    object(App\Models\Community)#1931 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3711446"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3711446"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [21]=>
+    object(App\Models\Community)#1932 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3712235"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3712235"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [22]=>
+    object(App\Models\Community)#1933 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3744974"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3744974"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [23]=>
+    object(App\Models\Community)#1934 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3751300"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3751300"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [24]=>
+    object(App\Models\Community)#1935 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3869849"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3869849"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [25]=>
+    object(App\Models\Community)#1936 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3954244"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3954244"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [26]=>
+    object(App\Models\Community)#1937 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3975477"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3975477"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [27]=>
+    object(App\Models\Community)#1938 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3981114"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co3981114"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [28]=>
+    object(App\Models\Community)#1939 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co4014060"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co4014060"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [29]=>
+    object(App\Models\Community)#1940 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co4034780"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co4034780"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [30]=>
+    object(App\Models\Community)#1941 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co4671242"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co4671242"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [31]=>
+    object(App\Models\Community)#1942 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co4693438"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co4693438"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [32]=>
+    object(App\Models\Community)#1943 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5021550"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5021550"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [33]=>
+    object(App\Models\Community)#1944 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5159040"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5159040"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [34]=>
+    object(App\Models\Community)#1945 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5417715"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5417715"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [35]=>
+    object(App\Models\Community)#1946 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5423799"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5423799"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [36]=>
+    object(App\Models\Community)#1947 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5435134"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5435134"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [37]=>
+    object(App\Models\Community)#1948 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5533251"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5533251"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [38]=>
+    object(App\Models\Community)#1949 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5577109"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5577109"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [39]=>
+    object(App\Models\Community)#1950 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5590909"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5590909"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [40]=>
+    object(App\Models\Community)#1951 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5707258"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5707258"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [41]=>
+    object(App\Models\Community)#1952 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5795889"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5795889"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [42]=>
+    object(App\Models\Community)#1953 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5940780"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5940780"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [43]=>
+    object(App\Models\Community)#1954 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5956973"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co5956973"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [44]=>
+    object(App\Models\Community)#1955 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co6048219"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co6048219"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [45]=>
+    object(App\Models\Community)#1956 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co6133642"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co6133642"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [46]=>
+    object(App\Models\Community)#1957 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co6137204"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co6137204"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [47]=>
+    object(App\Models\Community)#1958 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co6146440"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co6146440"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [48]=>
+    object(App\Models\Community)#1959 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co6170193"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co6170193"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+    [49]=>
+    object(App\Models\Community)#1960 (30) {
+      ["connection":protected]=>
+      string(5) "mysql"
+      ["table":protected]=>
+      string(11) "communities"
+      ["primaryKey":protected]=>
+      string(2) "id"
+      ["keyType":protected]=>
+      string(3) "int"
+      ["incrementing"]=>
+      bool(true)
+      ["with":protected]=>
+      array(0) {
+      }
+      ["withCount":protected]=>
+      array(0) {
+      }
+      ["preventsLazyLoading"]=>
+      bool(false)
+      ["perPage":protected]=>
+      int(15)
+      ["exists"]=>
+      bool(true)
+      ["wasRecentlyCreated"]=>
+      bool(false)
+      ["escapeWhenCastingToString":protected]=>
+      bool(false)
+      ["attributes":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co6233134"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["original":protected]=>
+      array(3) {
+        ["id"]=>
+        string(9) "co6233134"
+        ["created_at"]=>
+        string(19) "2024-01-16 21:06:52"
+        ["updated_at"]=>
+        string(19) "2024-01-16 21:06:52"
+      }
+      ["changes":protected]=>
+      array(0) {
+      }
+      ["casts":protected]=>
+      array(0) {
+      }
+      ["classCastCache":protected]=>
+      array(0) {
+      }
+      ["attributeCastCache":protected]=>
+      array(0) {
+      }
+      ["dates":protected]=>
+      array(0) {
+      }
+      ["dateFormat":protected]=>
+      NULL
+      ["appends":protected]=>
+      array(0) {
+      }
+      ["dispatchesEvents":protected]=>
+      array(0) {
+      }
+      ["observables":protected]=>
+      array(0) {
+      }
+      ["relations":protected]=>
+      array(0) {
+      }
+      ["touches":protected]=>
+      array(0) {
+      }
+      ["timestamps"]=>
+      bool(true)
+      ["hidden":protected]=>
+      array(0) {
+      }
+      ["visible":protected]=>
+      array(0) {
+      }
+      ["fillable":protected]=>
+      array(0) {
+      }
+      ["guarded":protected]=>
+      array(1) {
+        [0]=>
+        string(1) "*"
+      }
+    }
+  }
+  ["escapeWhenCastingToString":protected]=>
+  bool(false)
+}
+End, getstreamings!
