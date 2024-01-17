@@ -173,3 +173,14 @@ Start, getstreamers!
   25  artisan:37
       Illuminate\Foundation\Console\Kernel::handle()
 ```
+
+### 【配信データ取得処理】毎日1回12時頃
+
+- 処理概要
+  - commities テーブルからコミュニティIDを1件ずつ読み出す
+  - 取得したコミュニティIDを元に、生放送履歴ページを開く
+  - 生放送履歴ページから前日分の配信URLを取得
+  - 配信URLから来場者数、コメント、広告pt、ギフトpt データ等を取得
+  - 取得したデータを streamings テーブルに登録する
+
+### commities テーブルからコミュニティIDを1件ずつ読み出す

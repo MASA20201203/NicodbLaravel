@@ -24,7 +24,7 @@ class GetStreamers extends Command
      *
      * @var string
      */
-    protected $description = '配信データを取得するニコ生ユーザー情報を取得する';
+    protected $description = 'クリ奨データ取得対象ユーザーID・ユーザー名・コミュニティIDの取得';
 
     /**
      * Create a new command instance.
