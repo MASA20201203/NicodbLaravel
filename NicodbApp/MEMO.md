@@ -184,3 +184,6 @@ Start, getstreamers!
   - 取得したデータを streamings テーブルに登録する
 
 ### commities テーブルからコミュニティIDを1件ずつ読み出す
+
+- やること
+  - vscode で laravel のデバッガーを設定する
