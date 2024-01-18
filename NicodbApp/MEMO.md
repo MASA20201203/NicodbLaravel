@@ -191,16 +191,36 @@ Start, getstreamers!
 
 ## 1.18(木)
 
+### プロジェクト管理
+
 ### vscode で laravel のデバッガーを設定する
 
 - 作業手順
   - 必要な拡張機能のインストール
     - PHP Debug 拡張機能のインストール
     - PHP Intelephense 拡張機能
-  - Xdebugのインストールと設定
+  - Xdebugの設定
+    - PHPファイルの場所を確認
+      - php artisan serve
+      - ```<?php phpinfo(); ?>```
+    - PHPにXdebugをイントール
+
+      ```/etc/php/7.4/cli/php.ini
+      zend_extension=xdebug.so
+      xdebug.mode=debug
+      xdebug.start_with_request=yes
+      ```
+
+    - xdebugをインストール
+
+      ```
+      sudo apt install php-pear
+      sudo pecl install xdebug
+      ```
 
 ### エラーの解消
 
 - 参考情報
   - [Laravel の主キーで UUID を利用する時にハマった事、調べた事](https://yudy1152.hatenablog.com/entry/2019/04/19/132638)
   - [Laravelにてidの値を取得できない](https://qiita.com/calltella/items/b1dde1a40ad70ced5158)
+    - Laravelのモデルidに文字列を使うとidを取得した際にidの値が0になる

@@ -51,8 +51,8 @@ class GetStreamings extends Command
         // Streamerモデルにデータを保存
 
         foreach ($communities as $community) {
-            // echo $community->id . "\n";
             var_dump($community);
+            echo $community->id . "\n";
         }
 
 
