@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use GuzzleHttp\Client;
+use Symfony\Component\DomCrawler\Crawler;
 use App\Models\Community;
 
 class GetStreamings extends Command
@@ -50,23 +51,23 @@ class GetStreamings extends Command
 
         // Streamerモデルにデータを保存
 
-        foreach ($communities as $community) {
-            var_dump($community);
-            echo $community->id . "\n";
-        }
+        // foreach ($communities as $community) {
+        //     var_dump($community);
+        //     echo $community->id . "\n";
+        // }
+
+        collect($communities)->each(function ($community) use ($client) {
+            // echo $community->id . "\n";
+            echo 'https://com.nicovideo.jp/live/'. $community->id . "\n";
+            // $response = $client->request('GET', 'https://live.nicovideo.jp/ranking');
+            // $crawler = new Crawler($response->getBody()->getContents());
+        });
 
 
-        // collect($communities)->each(function ($community) {
-            // var_dump($community->items);
-            // var_dump($community->get('items'));
-            // var_dump($community->attributes);
-            // var_dump($community['attributes']['community_id']);
-            // var_dump($community->get('attributes'));
-            // var_dump($community);
-            // print_r($community);
-            // echo gettype($community) . "\n";
-        // });
-        // $streamers = collect($user_programs)->map(function ($user_program) {
+
+
+        // コレクションのマップ処理
+        // $streamers = collect($communities)->map(function ($community) {
         //     return [
         //         'id' => $user_program["programProvider"]["id"],
         //         'name' => $user_program["programProvider"]["name"],

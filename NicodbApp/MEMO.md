@@ -224,3 +224,5 @@ Start, getstreamers!
   - [Laravel の主キーで UUID を利用する時にハマった事、調べた事](https://yudy1152.hatenablog.com/entry/2019/04/19/132638)
   - [Laravelにてidの値を取得できない](https://qiita.com/calltella/items/b1dde1a40ad70ced5158)
     - Laravelのモデルidに文字列を使うとidを取得した際にidの値が0になる
+
+### 取得したコミュニティIDを元に、生放送履歴ページを開く
