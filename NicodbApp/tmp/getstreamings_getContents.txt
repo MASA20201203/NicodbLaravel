@@ -1,0 +1,711 @@
+Start, getstreamings!
+string(23837) "<!DOCTYPE HTML>
+<html lang="ja">
+		<head>
+		<script type="text/javascript">
+  try {
+    window.NicoGoogleTagManagerDataLayer = [];
+
+    var data = {};
+
+        data.user = (function () {
+      var user = {};
+
+                  user.login_status = 'not_login';
+      
+      return user;
+      })();
+
+    window.NicoGoogleTagManagerDataLayer.push(data);
+    } catch (e) {}
+</script>		<!-- Google Tag Manager -->
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','NicoGoogleTagManagerDataLayer','GTM-KXT7G5G');</script>
+
+<!-- End Google Tag Manager -->		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="ニコニコミュニティ,ニコニコ動画,ニコニコ生放送,動画,生放送,コミュニティ,SNS">
+<meta name="description" content="ニコニコミュニティ: 【自己紹介】
+30歳無職。プログラマーを目指しています。
+日々の勉強の様子を毎日24時間配信しています...">
+<meta property="og:title" content="リアルドキュメンタリー-ニコニコミュニティ">
+<meta property="og:url" content="http://nico.ms/co6167499">
+<meta property="og:image" content="https://img.cdn.nimg.jp/s/comch/community-icon/original/co6167499/7112160.jpg/a1024x1024l_FFFFFFFF?key=325df4d5703652fa8f1b4830d1ea3eb3c8e38b7f018ed2df4c1679f07ed2ea24">
+<meta property="og:type" content="website">
+		<title>
+			生放送一覧: リアルドキュメンタリー-ニコニコミュニティ		</title>
+		<base href="https://com.nicovideo.jp/">
+					<meta name="viewport" content="width=device-width,initial-scale=1">
+				<link rel="apple-touch-icon" href="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/img/apple/apple-touch-icon-76x76-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/img/apple/apple-touch-icon-72x72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/img/apple/apple-touch-icon-76x76-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/img/apple/apple-touch-icon-114x114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/img/apple/apple-touch-icon-120x120-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/img/apple/apple-touch-icon-144x144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/img/apple/apple-touch-icon-152x152-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/img/apple/apple-touch-icon-180x180-precomposed.png">
+		<link rel="icon" sizes="192x192" href="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/img/apple/touch-icon-192x192.png">
+		<link rel="shortcut icon" href="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/img/favicon_com.ico">
+		
+		<style type="text/css">
+			[v-cloak] {
+				display: none !important;
+			}
+		</style>
+		
+
+		
+
+<link rel="stylesheet" href="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/css/fresh.css?1705472178">
+		
+		
+<script src="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/js/shared.js?1705472178"></script>
+
+<script type="text/javascript" charset="utf-8" src="https://res.ads.nicovideo.jp/assets/js/ads2.js?ref=com"></script>
+
+<script src="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/js/lib/jquery-1.9.1.min.js"></script>
+<script>$j=jQuery.noConflict();</script>
+
+
+<script>
+	
+	Ads.get_segment_object = function(){
+		var segment = {};
+	
+			return segment;
+	
+	};
+	
+</script>	</head>
+
+	<body class="forSpHeader">
+		<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXT7G5G" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script>
+	
+	window.addEventListener("DOMContentLoaded", () => {
+		document.querySelectorAll("a[data-ga-event]").forEach(elem => {
+			elem.addEventListener("click", () => {
+				NicoGoogleTagManagerDataLayer.push({"event": elem.getAttribute("data-ga-event")});
+				elem.childNodes.forEach(child => {
+					if (child.tagName === "BUTTON") {
+						child.setAttribute("disabled", "disabled")
+					}
+				})
+			})
+		});
+	});
+	
+</script>		<div id="siteHeader"></div>
+<script>
+	
+	window.onCommonHeaderReady = function(commonHeader) {
+		commonHeader.mount('#siteHeader', {
+			frontendId: 21,
+			site: window.location.host.indexOf("-local.") !== -1 ? 'community-local' : 'community',
+			user: {
+				
+									isLogin  :  false				
+			},
+			customization: {
+				nextUrl: '/live/co6167499',
+				userPanelServiceLinksLabel: "ニコニコミュニティメニュー",
+				isFixedDisabled: true,
+				isSearchEnabled: window.location.pathname === "/" || window.location.pathname.indexOf("/search") === 0,
+				responsiveSwitchingPoint: {
+					width: 921
+				},
+				logo: {
+					image     : 'https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/img/fresh/logo-header_sp.svg',
+					width     :  130,
+					marginLeft:  -4,
+					href      :  '/'
+				},
+				size: {
+					maxWidth: '1024px'
+				},
+				userPanelServiceLinks: [
+					{
+						href : '/my/community',
+						label: 'オーナーのコミュニティ'
+					},
+					{
+						href : '/community',
+						label: 'フォロー中のコミュニティ'
+					},
+					{
+						href : '/my_contact',
+						label: 'マイリクエストBOX'
+					},
+					{
+						href : 'https://www.nicovideo.jp/my/nicorepo/followingCommunity',
+						label: 'コミュニティの最新ニコレポ'
+					},
+					{
+						href : '/new',
+						label: 'コミュニティ作成'
+					},
+				],
+				helpLink: {
+					href: 'https://qa.nicovideo.jp/category/show/482?site_domain=default'
+				}
+			}
+		});
+
+		commonHeader.on('search:open', function() {
+			document.dispatchEvent(new Event("search:open"));
+
+			const searchPanel = document.getElementById('searchForm_sp_area')
+			if (searchPanel === null) {
+				return;
+			}
+			searchPanel.style.display = 'flex';
+		});
+
+		commonHeader.on('search:close', function() {
+			document.dispatchEvent(new Event("search:close"));
+
+			const searchPanel = document.getElementById('searchForm_sp_area')
+			if (searchPanel === null) {
+				return;
+			}
+			searchPanel.style.display = 'none';
+		});
+		
+	};
+</script>
+<script type="text/javascript" src="https://secure-dcdn.cdn.nimg.jp/common-header/res/2.20.0/responsive/CommonHeaderLoader.min.js"></script>
+				<!-- header for pc-->
+<header class="area-pcSiteHeader">
+	<div class="cp-pcSiteHeader">
+		<h1 class="pcSiteLogo"><a href="/"><img src="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/img/fresh/logo-header_pc.svg" alt="ニコニコミュニティ"></a></h1>
+					<form class="pcSearchForm md-searchForm" onsubmit="location.href='https://com.nicovideo.jp/search/'+encodeURIComponent(this.s.value.replace(/^\s+|\s+$/g, '')).replace(/%20/g, '+')+'?mode=s'; return false;">
+				<input type="text" class="textArea" placeholder="コミュニティを検索する" value="" name="s">
+				<button type="submit" class="submitButton" value="検索"><img src="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/img/fresh/icon-searchForm.svg" alt="検索"></button>
+			</form>
+				<aside class="adPcSiteHeader">
+			<aside id="community_pc_top" style="width:468px; height:60px; float:right;"></aside>
+<script type="text/javascript">
+
+	(function() {
+
+		var queryWidth = 920;
+		var target_dom_id = "community_pc_top";
+		var isSet = false;
+		var isShow = false;
+
+
+		var target_dom;
+
+		function ad_set() {
+			var segment = Ads.get_segment_object();
+			new Ads.Advertisement({zone: 72, segments: segment, impression: 2}).set(target_dom_id);
+		}
+
+		function ad_showControl() {
+			if(!isSet) {
+				// セットされてなかったらセットして表示
+				if(window.innerWidth >= queryWidth) {
+					ad_set();
+					isSet = true;
+					isShow = true;
+					target_dom = document.getElementById(target_dom_id);
+				}
+			} else {
+				// 既にセットされている
+				if(isShow) {
+					// 表示されている
+					if(window.innerWidth < queryWidth) {
+						// もし表示条件を満たさなければ非表示
+						target_dom.style.display = "none";
+						isShow = false;
+					}
+				} else {
+					// 表示されていない
+					if(window.innerWidth >= queryWidth) {
+						target_dom.style.display = "flex";
+						isShow = true;
+					}
+				}
+			}
+		}
+
+		// 読み込み時に実行
+		ad_showControl();
+
+		// リサイズ時に実行
+		window.addEventListener('resize', function () {
+			ad_showControl();
+		});
+
+	})();
+
+
+</script>
+		</aside>
+	</div>
+</header>
+
+<!-- search panel for tablet & smartphone-->
+<div class="area-searchForm_sp" id="searchForm_sp_area" style="display:none;">
+	<form class="md-searchForm" onsubmit="location.href='https://com.nicovideo.jp/search/'+encodeURIComponent(this.s.value.replace(/^\s+|\s+$/g, '')).replace(/%20/g, '+')+'?mode=s'; return false;">
+		<input type="text" class="textArea" placeholder="コミュニティを検索する" value="" name="s">
+		<button type="submit" class="submitButton" value="検索"><img src="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/img/fresh/icon-searchForm.svg" alt="検索"></button>
+	</form>
+</div>
+
+<!-- ad for tablet & smartphone-->
+<aside id="ad_community_tablet_header" class="area-adTabletSiteHeader" style="height:auto;"></aside>
+<script type="text/javascript">
+
+	(function() {
+
+		var queryWidth_max = 920;
+		var queryWidth_min = 480;
+		var target_dom_id = "ad_community_tablet_header";
+		var isSet = false;
+		var isShow = false;
+
+		var target_dom;
+
+		function ad_set() {
+			var segment = Ads.get_segment_object();
+			new Ads.Advertisement({zone: 72, segments: segment, impression: 2}).set('ad_community_tablet_header');
+		}
+
+		function ad_showControl() {
+			if(!isSet) {
+				// セットされてなかったらセットして表示
+				if(window.innerWidth > queryWidth_min && window.innerWidth <= queryWidth_max) {
+					ad_set();
+					isSet = true;
+					isShow = true;
+					target_dom = document.getElementById(target_dom_id);
+				}
+			} else {
+				// 既にセットされている
+				if(isShow) {
+					// 表示されている
+					if(!(window.innerWidth > queryWidth_min && window.innerWidth <= queryWidth_max)) {
+						// もし表示条件を満たさなければ非表示
+						target_dom.style.display = "none";
+						isShow = false;
+					}
+				} else {
+					// 表示されていない
+					if(window.innerWidth > queryWidth_min && window.innerWidth <= queryWidth_max) {
+						target_dom.style.display = "flex";
+						isShow = true;
+					}
+				}
+			}
+		}
+
+		// 読み込み時に実行
+		ad_showControl();
+
+		// リサイズ時に実行
+		window.addEventListener('resize', function () {
+			ad_showControl();
+		});
+
+	})();
+
+	(function(){
+
+	})();
+
+</script>
+    <aside id="ad_community_sp_header" class="area-adSpSiteHeader" style="height:auto;"></aside>
+<script type="text/javascript">
+
+	(function() {
+
+		var zone_id_iOS = 1024;
+		var zone_id_Android = 1027;
+		var queryWidth = 480;
+		var target_dom_id = "ad_community_sp_header";
+		var isSet = false;
+		var isShow = false;
+
+		var zone_id;
+		var ua = window.navigator.userAgent;
+		if(ua.indexOf('iPhone') > 0 || ua.indexOf('iPod') > 0 ||  ua.indexOf('iPad') > 0) {
+			zone_id = zone_id_iOS;
+		} else {
+			zone_id = zone_id_Android;
+		}
+
+		var target_dom;
+
+		function ad_set() {
+			// サイズが条件を満たしたら実行
+			new Ads.Advertisement({
+					zone: zone_id          // ゾーンID（必須）
+			}).set(target_dom_id);      // 広告を表示するdiv要素のid
+		}
+
+		function ad_showControl() {
+			if(!isSet) {
+				// セットされてなかったらセットして表示
+				if(window.innerWidth <= queryWidth) {
+					ad_set();
+					isSet = true;
+					isShow = true;
+					target_dom = document.getElementById(target_dom_id);
+				}
+			} else {
+				// 既にセットされている
+				if(isShow) {
+					// 表示されている
+					if(window.innerWidth > queryWidth) {
+						// もし表示条件を満たさなければ非表示
+						target_dom.style.display = "none";
+						isShow = false;
+					}
+				} else {
+					// 表示されていない
+					if(window.innerWidth <= queryWidth) {
+						target_dom.style.display = "flex";
+						isShow = true;
+					}
+				}
+			}
+		}
+
+		// 読み込み時に実行
+		ad_showControl();
+
+		// リサイズ時に実行
+		window.addEventListener('resize', function () {
+			ad_showControl();
+		});
+
+	})();
+
+
+</script>
+
+							<header class="area-communityHeader">
+		<div class="cp-communityHeader slim">
+
+			<div class="communityInfo">
+
+				<div class="communityThumbnail">
+					<a href="/community/co6167499">
+						<img src="https://img.cdn.nimg.jp/s/comch/community-icon/original/co6167499/7112160.jpg/a1024x1024l_FFFFFFFF?key=325df4d5703652fa8f1b4830d1ea3eb3c8e38b7f018ed2df4c1679f07ed2ea24" alt="リアルドキュメンタリー">
+					</a>
+				</div>
+
+				<div class="communityData">
+					<h2 class="title">
+						<a href="/community/co6167499">
+							リアルドキュメンタリー
+						</a>
+					</h2>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+<nav class="area-communityNavigation">
+	<div class="cp-communityNavigation">
+		<ul class="list">
+
+			<li class="item" title="このコミュニティのトップ">
+				<a href="/community/co6167499?com_header=1">トップ</a>
+			</li>
+
+			<li class="item" title="このコミュニティの動画一覧">
+				<a data-ga-event="community_click_video-list-tab" href="/video/co6167499?com_header=1">動画</a>
+			</li>
+
+			<li class="item" title="このコミュニティのイラスト一覧">
+				<a data-ga-event="community_click_illust-list-tab" href="/illust/co6167499?com_header=1">イラスト</a>
+			</li>
+
+							<li class="item active" title="このコミュニティの生放送一覧">
+					<a data-ga-event="community_click_live-list-tab" href="/live/co6167499?com_header=1" class="on">生放送</a>
+				</li>
+			
+							<li class="item" title="掲示板">
+					<a data-ga-event="community_click_bbs-list-tab" href="https://com.nicovideo.jp/bbs/co6167499?com_header=1">掲示板</a>
+				</li>
+			
+			<li class="item" title="このコミュニティのフォロワー">
+				<a data-ga-event="community_click_member-list-tab" href="/member/co6167499?com_header=1">フォロワー</a>
+			</li>
+
+					</ul>
+	</div>
+</nav>			<header class="area-communityInformation">
+	
+	
+	
+</header>		
+		<main class="area-communityLive">
+	<div class="cp-communityLive" data-community-kind="live-list" data-limit="50" v-cloak>
+		
+		<p v-if="lives === 'loading'" class="communityLive_empty">読み込み中...</p>
+		<p v-if="lives === 'error'" class="communityLive_empty">生放送情報の取得中にエラーが発生しました。</p>
+		<p v-if="lives === 'closed'" class="communityLive_empty">コミュニティフォロワーではありません。</p>
+		<p v-if="lives !== 'loading' && lives !== 'error' && lives !== 'closed' && lives.length === 0" class="communityLive_empty">生放送一覧はありません</p>
+		<template v-if="lives !== 'loading' && lives !== 'error' && lives !== 'closed' && 0 < lives.length">
+			<div class="md-communityPageHeader">
+				<div class="communityLive_latestPage">
+					<span>最新の生放送URL</span>
+					<span>(<a :href="watch_list_url + '?ref=community'">{{watch_list_url}}</a>)</span>
+				</div>
+				<div class="pageHeader_subText">
+					<div class='pager_onlyCount_live'>
+						<div class="pageCount" v-if="paging.from !== paging.to">
+							<strong>{{paging.from}} - {{paging.to}}</strong>件目
+						</div>
+						<div class="pageCount" v-if="paging.from === paging.to">
+							<strong>{{paging.from}}</strong>件目
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="communityLive_result">
+				<ul class="communityLive_resultList">
+					<template v-for="(live, index) in lives">
+						<li class="liveItem">
+							<div class="liveDetail">
+								<div class="liveStatus">
+									<span class="timeshift_tabletsp_enable" v-if="live.basic.status === 'RELEASED'">放送予定</span>
+									<span class="timeshift_tabletsp_enable" v-if="live.basic.status === 'ON_AIR'">放送中</span>
+									<span class="timeshift_tabletsp_enable" v-if="live.basic.status === 'ENDED' && live.basic.timeshift.can_view">タイムシフト視聴可</span>
+									<span class="liveDate" v-if="live.basic.started_at">{{live.basic.started_at | dateStringAsString}}</span>
+								</div>
+								<a :href="live.basic.watch_url + '?ref=community'" class="liveTitle">{{live.basic.title}}</a>
+								<div class="liveBroadcaster" v-if="live.user !== undefined">
+									放送主：{{live.user.nickname}}さん
+									<a v-if="live.basic.settings_url" :href="live.basic.settings_url">【編集】</a>
+								</div>
+								<p class="liveDescription">{{live.basic.description}}</p>
+							</div>
+
+							<a v-if="live.basic.status === 'RELEASED'" :href="live.basic.watch_url + '?ref=community'" class="timeshiftButton_pc_enabled">放送予定の画面に移動</a>
+							<a v-if="live.basic.status === 'ON_AIR'" :href="live.basic.watch_url + '?ref=community'" class="timeshiftButton_pc_enabled">視聴する</a>
+							<a v-if="live.basic.status === 'ENDED' && live.basic.timeshift.can_view" :href="live.basic.watch_url + '?ref=community'" class="timeshiftButton_pc_enabled">タイムシフト視聴</a>
+							<span v-if="live.basic.status === 'ENDED' && !live.basic.timeshift.can_view" class="timeshiftButton_pc_disabled">タイムシフト視聴はできません</span>
+						</li>
+
+						<li v-if="index === 9 && paging.total !== 10">
+							
+														<aside id="ad_community_sp_content_videolive" class="ad_sp_content_videolive" style="height:auto;"></aside>
+<script type="text/javascript">
+
+	(function() {
+
+		var zone_id_iOS = 1025;
+		var zone_id_Android = 1028;
+		var queryWidth = 480;
+		var target_dom_id = "ad_community_sp_content_videolive";
+		var isSet = false;
+		var isShow = false;
+
+		var zone_id;
+		var ua = window.navigator.userAgent;
+		if(ua.indexOf('iPhone') > 0 || ua.indexOf('iPod') > 0 ||  ua.indexOf('iPad') > 0) {
+			zone_id = zone_id_iOS;
+		} else {
+			zone_id = zone_id_Android;
+		}
+
+		var target_dom;
+
+		function ad_set() {
+			// サイズが条件を満たしたら実行
+			new Ads.Advertisement({
+					zone: zone_id       // ゾーンID（必須）
+			}).set(target_dom_id);      // 広告を表示するdiv要素のid
+		}
+
+		function ad_showControl() {
+			if(!isSet) {
+				// セットされてなかったらセットして表示
+				if(window.innerWidth <= queryWidth) {
+					ad_set();
+					isSet = true;
+					isShow = true;
+					target_dom = document.getElementById(target_dom_id);
+				}
+			} else {
+				// 既にセットされている
+				if(isShow) {
+					// 表示されている
+					if(window.innerWidth > queryWidth) {
+						// もし表示条件を満たさなければ非表示
+						target_dom.style.display = "none";
+						isShow = false;
+					}
+				} else {
+					// 表示されていない
+					if(window.innerWidth <= queryWidth) {
+						target_dom.style.display = "flex";
+						isShow = true;
+					}
+				}
+			}
+		}
+
+		// 読み込み時に実行
+		ad_showControl();
+
+		// リサイズ時に実行
+		window.addEventListener('resize', function () {
+			ad_showControl();
+		});
+
+	})();
+
+
+</script>
+							
+						</li>
+					</template>
+				</ul>
+			</div>
+			<div class="md-pager">
+				
+				
+<div class="md-pager" v-if="paging.total !== 0">
+	<div class="pagelink">
+
+
+		
+		
+			<div class="pager">
+				<a class="last" v-if="paging.prev_page" :href="paging.prev_page.link">&lt; 前へ</a>
+				<span class="last" v-if="!paging.prev_page">&lt; 前へ</span>
+				<div class="pager_num">
+					<template v-for="page in paging.near_pages">
+						<a v-if="!page.is_displayed" :href="page.link" class="num">{{page.text}}</a>
+						<span v-if="page.is_displayed" class="in">{{page.text}}</span>
+					</template>
+				</div>
+				<a class="next" v-if="paging.next_page" :href="paging.next_page.link">次へ &gt;</a>
+				<span class="next" v-if="!paging.next_page">次へ &gt;</span>
+			</div>
+		
+
+					
+			<div class="pageCount" v-if="paging.from !== paging.to">
+				<strong>{{paging.total}}</strong>件中 <strong>{{paging.from}} - {{paging.to}}</strong>件目
+			</div>
+			<div class="pageCount" v-if="paging.from === paging.to">
+				<strong>{{paging.total}}</strong>件中 <strong>{{paging.from}}</strong>件目
+			</div>
+			
+		
+	
+	</div>
+</div>
+				
+			</div>
+			<p>※番組を削除できるのは、放送者のみです</p>
+			
+			<p>※<a href="https://live.nicovideo.jp/my">ニコニコ生放送マイページ</a>の「自分の放送」より[削除]をクリックしてください</p>
+			
+		</template>
+		
+	</div>
+</main>		<footer class="area-communityFooter">
+	<div class="cp-communityFooter">
+		
+		
+					<aside id="ad_community_sp_footer" class="ad sp" style="height:auto;"></aside>
+<script type="text/javascript">
+
+	(function() {
+
+		var zone_id_iOS = 1026;
+		var zone_id_Android = 1029;
+		var queryWidth = 480;
+		var target_dom_id = "ad_community_sp_footer";
+		var isSet = false;
+		var isShow = false;
+
+		var zone_id;
+		var ua = window.navigator.userAgent;
+		if(ua.indexOf('iPhone') > 0 || ua.indexOf('iPod') > 0 ||  ua.indexOf('iPad') > 0) {
+			zone_id = zone_id_iOS;
+		} else {
+			zone_id = zone_id_Android;
+		}
+
+		var target_dom;
+
+		function ad_set() {
+			// サイズが条件を満たしたら実行
+			new Ads.Advertisement({
+					zone: zone_id       // ゾーンID（必須）
+			}).set(target_dom_id);      // 広告を表示するdiv要素のid
+		}
+
+		function ad_showControl() {
+			if(!isSet) {
+				// セットされてなかったらセットして表示
+				if(window.innerWidth <= queryWidth) {
+					ad_set();
+					isSet = true;
+					isShow = true;
+					target_dom = document.getElementById(target_dom_id);
+				}
+			} else {
+				// 既にセットされている
+				if(isShow) {
+					// 表示されている
+					if(window.innerWidth > queryWidth) {
+						// もし表示条件を満たさなければ非表示
+						target_dom.style.display = "none";
+						isShow = false;
+					}
+				} else {
+					// 表示されていない
+					if(window.innerWidth <= queryWidth) {
+						target_dom.style.display = "flex";
+						isShow = true;
+					}
+				}
+			}
+		}
+
+		// 読み込み時に実行
+		ad_showControl();
+
+		// リサイズ時に実行
+		window.addEventListener('resize', function () {
+			ad_showControl();
+		});
+
+	})();
+
+
+</script>
+			</div>
+</footer>
+		<footer class="area-siteFooter">
+	<div class="cp-siteFooter">
+    <div class="siteFooter_menu">
+  		<ul class="siteFooterLinkList">
+  			<li class="item"><a href="https://com.nicovideo.jp/">ニコニコミュニティTOP</a></li>
+  			<li class="item"><a target="_blank" href="https://account.nicovideo.jp/rules/account">ニコニコ利用規約</a></li>
+  			<li class="item">
+				<a href="https://qa.nicovideo.jp/category/show/482" target="_blank">ニコニコミュニティ ヘルプ</a>
+  			</li>
+  		</ul>
+    </div>
+    <div class="copyright_wrap">
+      <small class="copyright">&copy; DWANGO Co., Ltd.</small>
+    </div>
+  </div>
+</footer>
+		<script src="https://secure-dcdn.cdn.nimg.jp/nicommunity/nicommunity/js/fresh.js?1705472178"></script>
+
+</body>
+</html>"
+End, getstreamings!

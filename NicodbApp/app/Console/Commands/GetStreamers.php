@@ -49,6 +49,8 @@ class GetStreamers extends Command
         $response = $client->request('GET', 'https://live.nicovideo.jp/ranking');
 
         $crawler = new Crawler($response->getBody()->getContents());
+        var_dump($crawler);
+        return false;
 
         // ニコ生公式ランキングのjsonデータを取得（"embedded-data"要素の"data-props"）
         $dataProps = $crawler->filter('#embedded-data')->attr('data-props');

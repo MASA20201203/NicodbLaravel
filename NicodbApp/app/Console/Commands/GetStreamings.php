@@ -50,19 +50,37 @@ class GetStreamings extends Command
         $client = new Client();
 
         // Streamerモデルにデータを保存
+        // collect($communities)->each(function ($community) use ($client) {
+        //     // echo $community->id . "\n";
+        //     // echo 'https://com.nicovideo.jp/live/'. $community->id . "\n";
+        //     $response = $client->request('GET', 'https://com.nicovideo.jp/live/'. $community->id);
+        //     $crawler = new Crawler($response->getBody()->getContents());
+        //     var_dump($crawler);
+        //     return false;
 
-        // foreach ($communities as $community) {
-        //     var_dump($community);
-        //     echo $community->id . "\n";
-        // }
+            // $live_date = $crawler->filter('.liveDate');
+            // echo var_dump($live_date);
+            // dd($live_date);
+        // });
 
-        collect($communities)->each(function ($community) use ($client) {
-            // echo $community->id . "\n";
-            echo 'https://com.nicovideo.jp/live/'. $community->id . "\n";
-            // $response = $client->request('GET', 'https://live.nicovideo.jp/ranking');
-            // $crawler = new Crawler($response->getBody()->getContents());
-        });
+        $response = $client->request('GET', 'https://com.nicovideo.jp/api/v1/communities/6167499/lives.json?limit=50&offset=0');
+        // $response = $client->request('GET', 'https://com.nicovideo.jp/live/co6167499');
+        // var_dump($response->getBody()->getContents());
+        var_dump($response);
 
+        // $crawler = new Crawler($response->getBody()->getContents());
+        // var_dump($crawler);
+
+        // ".LiveItem"の要素を取得
+        // $liveDate = $crawler->filter('.liveDate');
+        // var_dump($liveDate);
+
+        // 各".LiveItem"要素に対する処理
+        // $liveItems->each(function (Crawler $node) {
+        //     // ここで各要素に対する処理を行う
+        //     // 例えば、要素のテキストを表示する
+        //     echo $node->text() . "\n";
+        // });
 
 
 
