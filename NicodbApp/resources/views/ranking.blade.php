@@ -7,6 +7,5 @@
 </head>
 <body>
     <h1>クリ奨ランキング</h1>
-    <?php phpinfo(); ?>
 </body>
 </html>
