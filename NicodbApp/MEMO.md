@@ -213,7 +213,7 @@ Start, getstreamers!
 
     - xdebugをインストール
 
-      ```
+      ```bash
       sudo apt install php-pear
       sudo pecl install xdebug
       ```
@@ -223,7 +223,7 @@ Start, getstreamers!
 - 参考情報
   - [Laravel の主キーで UUID を利用する時にハマった事、調べた事](https://yudy1152.hatenablog.com/entry/2019/04/19/132638)
   - [Laravelにてidの値を取得できない](https://qiita.com/calltella/items/b1dde1a40ad70ced5158)
-    - Laravelのモデルidに文字列を使うとidを取得した際にidの値が0になる
+    - Laravelのモデルidに文字列（string）を使うとidを取得した際にidの値が0になるため、falseの設定が必要だった
 
 ### 取得したコミュニティIDを元に、生放送履歴ページを開く
 
@@ -238,3 +238,6 @@ Start, getstreamers!
   - HTTPクライアントではjsでレンダリングされたデータを取得できない
     - selenium or playwright をつかえばスクレイピングできる？
     - ```Playwrightを利用して、Laravel で動的サイトをスクレイピングする方法をおしえてください```
+
+- 今後やること
+  - Laravelプロジェクトで動的サイトをスクレイピング
