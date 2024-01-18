@@ -193,6 +193,12 @@ Start, getstreamers!
 
 ### vscode で laravel のデバッガーを設定する
 
+- 作業手順
+  - 必要な拡張機能のインストール
+    - PHP Debug 拡張機能のインストール
+    - PHP Intelephense 拡張機能
+  - Xdebugのインストールと設定
+
 ### エラーの解消
 
 - 参考情報
